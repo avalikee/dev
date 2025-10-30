@@ -1,0 +1,28 @@
+---
+alwaysApply: false
+---
+
+Avalik.ee is a volunteer-driven civic‑tech initiative that makes Estonian public data — especially Riigikogu (parliament) data — accessible, structured, and understandable. It is independent and not affiliated with any government body.
+
+## Mission
+Enable citizens and developers to explore how the Riigikogu works: attendance, voting, and member information — presented clearly and reliably.
+
+## Identity
+- Domain: https://avalik.ee
+- GitHub Organization: https://github.com/avalikee
+- Brand: minimalist dove/light motif in Estonian colors (blue, black, white); neutral, trustworthy tone.
+
+## Riigikogu OpenAPI
+- Official specification: https://api.riigikogu.ee/v3/api-docs
+- Primary source we mirror and validate; basis for planned SDKs.
+
+## Licensing & Provenance
+Code and automation under Apache‑2.0. Public data originates from the Riigikogu’s public API under Estonia’s Public Information Act (Avaliku teabe seadus) and is openly reusable. No endorsement by the Riigikogu is implied.
+
+## Vision
+- Public portal: explore attendance and voting patterns.
+- Developer ecosystem: structured APIs, SDKs, and documentation.
+- Expansion: other Estonian/EU institutions; dashboards and visualizations.
+
+## Ethos
+Transparency, Clarity, Openness, Neutrality.
