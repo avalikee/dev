@@ -1,0 +1,4 @@
+[submodule "riigikogu-openapi-spec"]
+	path = riigikogu-openapi-spec
+	url = git@github.com:avalikee/riigikogu-openapi-spec.git
+	branch = main
