@@ -1,0 +1,13 @@
+[tools]
+python = "3.14"
+ruff = "0.6.7"
+
+[tasks.sync-submodules]
+description = "Update git submodules to latest remote and commit root repo"
+shell = "bash -lc"
+run = [
+  "git submodule sync --recursive",
+  "git submodule update --init --recursive --remote",
+  "git add riigikogu-openapi-spec",
+  "if ! git diff --staged --quiet; then git commit -m \"chore: update submodules\"; else echo \"No submodule updates to commit.\"; fi",
+]
