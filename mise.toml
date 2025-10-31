@@ -1,6 +1,8 @@
 [tools]
 python = "3.14"
+node = "24"
 ruff = "0.6.7"
+prettier = "3.3.3"
 
 [tasks.sync-submodules]
 description = "Update git submodules to latest remote and commit root repo"
